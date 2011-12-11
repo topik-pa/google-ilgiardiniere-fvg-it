@@ -23,6 +23,7 @@
 						echo '<meta name="subject" content="Giulio Modotti: perito agrario che esegue lavori di giardinaggio a Udine ed in tutto il Friuli. Trattamenti fitosanitari, eliminazione processionaria, cura malattie delle piante, manutenzione e consulenza di giardini, siepi, alberi e fiori. Pagina sulla processionaria" />';
 						echo "\n";
 				break;
+				
 				case 'home':
 						echo '<meta name="keywords" content="giardiniere, udine, friuli, manutenzione, verde, alberi, piante, giardino, prato, siepi, potature, abbattimento, alberi, consulenza, giardinaggio, trattorino, trinciatura sterpaglia, boschette ,cura terreni abbandonati, movimentazione terra e ghiaia" />';
 						echo "\n";
@@ -31,6 +32,16 @@
 						echo '<meta name="subject" content="Il giardiniere Giulio opera a Udine ed in tutto il Friuli per lavori di giardinaggio, manutenzione giardini, manutenzione siepi, manutenzione alberi, manutenzione piante, manutenzione prati, potatura alberi, potatura siepi, abbattimento alberi" />';
 						echo "\n";
 				break;
+				
+				case 'manutenzione_terreni':
+						echo '<meta name="keywords" content="manutenzione, terreni, cura, eliminazione, arbusti, sterpaglie, stoppie, frasche, cespugli, siepi, residui di coltivazione, detriti" />';
+						echo "\n";
+						echo '<meta name="description" content="Manutenzione e cura terreni da sterpaglie, stoppie, siepi, cespugli, arbusti e detriti. Giardiniere a Udine e provincia" />';
+						echo "\n";
+						echo '<meta name="subject" content="Il giardiniere Giulio opera a Udine ed in tutto il Friuli per lavori di manutenzione e cura terreni da sterpaglie, stoppie, siepi, cespugli, arbusti e detriti." />';
+						echo "\n";
+				break;				
+				
 				default:
 						echo '<meta name="keywords" content="giardiniere, udine, friuli, perito agrario, potature, siepi, alberi, manutenzione, giardino, siepi, alberi, fiori, consulenza, fitosanitaria" />';
 						echo "\n";
