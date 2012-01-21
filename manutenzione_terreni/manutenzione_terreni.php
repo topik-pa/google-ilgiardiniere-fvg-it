@@ -60,20 +60,13 @@ $pagina = "manutenzione_terreni";
 				<!-- Fine div indiceCorpoCentrale -->
 				<!-- Primo paragrafo -->
 				<div id="explanation">
-					<h3>Chi sono</h3>
-					<p>Spinto dalla passione per le piante e per i &quot;giardini ben fatti&quot;, con tanta buona volont&agrave; e pazienza ho creato <strong>una giovane azienda</strong> specializzata nella manutenzione di piante e fiori e di tutto ci&ograve; che la Natura ci offre per gestire il nostro giardino. Nonostante la mia giovane et&agrave; la mia azienda ha gi&agrave; avuto la possibilit&agrave; di maturare una <strong>pluriennale esperienza</strong> nel settore del giardinaggio.<br /> Propongo soluzioni originali e creative cercando il pi&ugrave; possibile di mantenerle equilibrate con i prezzi, offrendo <strong>supporto e consulenza continui nel tempo</strong>.
+					<h3>Manutenzione, cura, pulizia terreni ed eliminazione delle sterpaglie</h3>
+					<p>Durante tutto l&apos;anno il territorio comunale pu&ograve; essere soggetto ad eventi che possono mettere a rischio l&apos;incolumit&agrave; pubblica: mi riferisco principalmente ad eventi quali gli incedi che possono svilupparsi nelle aree incolte o abbandonate. <br />Le sterpaglie e gli arbusti che crescono nei nostri terreni incolti diventano facile strumento per la propagazione del fuoco, soprattutto nei periodi estivi. Data la pericolosit&agrave; di questi eventi, le amministrazioni comunali si sono attivate introducendo specifici obblighi e divieti. <br />I proprietari di aree incolte o abbandonate devono procedere in modo autonomo alla ripulitura dei loro terreni da stoppie, frasche, cespugli, arbusti e residui di coltivazione; al taglio di siepi vive, erbe e rami che si protendono sul ciglio stradale; allo sgombero da detriti, immondizie, materiali putrescibili e quant&apos;altro possa essere veicolo di incendio. Gli stessi proprietari sono anche tenuti mantenimento delle relative aree in condizioni tali da impedire tanto il proliferare di erbacce, sterpaglie e altre forme di vegetazione spontanea, quanto l&apos;immissione di rifiuti di qualsiasi specie, sempre al fine di garantirne la sicurezza antincendio. 
+					<br />Il materiale di risulta derivante dalla ripulitura dei terreni e/o dalla realizzazione dei viali parafuoco, dovr&agrave; essere adeguatamente smaltito mediante conferimento differenziato presso appositi centri e non, invece, bruciato in loco, in quanto anche l&apos;accensione di fuochi &egrave; specificatamente vietata.
+					<br />Chi non si adegua a tali disposizioni potrebbe incorrere in sanzioni che variano da comune a comune.
 					</p>
-					<a href="gallery.php?pagina=chi_sono&amp;img=1"><img id="foto1" class="classe_immagini" alt="Una mia immagine mentre lavoro" src="img/1ico.jpg" /></a>
-					<p class="p1">
-					<span>Dirigo personalmente questa infrastruttura aziendale aiutato dalla qualifica di perito agrario (qualifica ottenuta a Cividale del Friuli con specializzazione in ortoflorovivaismo). Eseguo <strong>qualsiasi preventivo in tutto il Friuli Venezia Giulia</strong> in modo totalmente gratuito. Dispongo della possibilit&agrave; di macinare i residui di potatura in maniera ecocompatibile ed ecosostenibile per l'ambiente, inoltre riutilizzo il materiale di scarto per creare dell'ottima pacciamatura per le aiuole.
-					</span>
-					<a href="gallery.php?pagina=chi_sono&amp;img=2"><img id="foto2" class="classe_immagini" alt="Una mia immagine mentre lavoro" src="img/2ico.jpg" /></a>
-					</p>
-					<h3>Macchinari</h3>
-					<p class="p1">
-					<span>Dispongo di tutte le attrezzature professionali necessarie per la creazione e la manutenzione dei vostri prati, per  quanto riguarda i lavori da svolgere in altezza mi avvalgo di attrezzatura a norma di legge e con un occhio vigile alla sicurezza personale e di terzi.<br />
+					<p> 
 					<a class="torna_in_alto" href="#supportingText">Torna in alto</a>
-					</span>
 					</p>
 				</div>				
 				<!-- Fine div explanation -->
