@@ -82,19 +82,19 @@
 		<style type="text/css"><?php 
 				switch($pagina) {
 					case 'home':
-						echo 'h1 { color: black; }';
-					break;
-					case 'accessibilita':
-						echo 'h1 { color: aqua; }';
-					break;
-					case 'altra':
-						echo 'h1 { color: blue; }';
+						echo 'h1 { color: black; } #home {font-weight: bold;}';
 					break;
 					case 'chi_siamo':
-						echo 'h1 { color: fuchsia; }';
+						echo 'h1 { color: fuchsia; } #chi_sono {font-weight: bold;}';
 					break;
-					case 'raggiungerci':
-						echo 'h1 { color: gray; }';
+					case 'manutenzione_terreni':
+						echo 'h1 { color: aqua; } #manutenzione_terreni {font-weight: bold;}';
+					break;
+					case 'gallery':
+						echo 'h1 { color: blue; } #gallery {font-weight: bold;}';
+					break;					
+					case 'contatti':
+						echo 'h1 { color: gray; } #contatti {font-weight: bold;}';
 					break;
 					case 'contatti':
 						echo 'h1 { color: green; }';
