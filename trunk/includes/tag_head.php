@@ -90,6 +90,9 @@
 					case 'manutenzione_terreni':
 						echo 'h1 { color: aqua; } #manutenzione_terreni {font-weight: bold;}';
 					break;
+					case 'giardiniere_enti_pubblici':
+						echo 'h1 { color: aqua; } #giardiniere_enti_pubblici {font-weight: bold;}';
+						break;
 					case 'gallery':
 						echo 'h1 { color: blue; } #gallery {font-weight: bold;}';
 					break;					
