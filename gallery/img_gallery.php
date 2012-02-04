@@ -4,7 +4,7 @@
 <?php
 //Imposto due variabili di uso generale
 $titolo_pagina = "Giulio Modotti (perito agrario) - Giardiniere, esegue lavori di giardinaggio e trattamenti fitosanitari - Gallery";
-$pagina = "chi_siamo";
+$pagina = "gallery";
 ?>
 
 <!-- Dichiarazione del DOCTYPE -->
