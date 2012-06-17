@@ -64,7 +64,11 @@ $pagina = "gallery";
 					<span></span></p>
 
 					<div id="img_gallery2">
-
+					
+						<a href="gallery.php?img=35&pagina=img_gallery"><img class="classe_immagini" alt="Una immagine dei miei lavori" src="img/35ico.jpg" /><a>
+						<a href="gallery.php?img=36&pagina=img_gallery"><img class="classe_immagini" alt="Una immagine dei miei lavori" src="img/36ico.jpg" /></a>
+						<a href="gallery.php?img=37&pagina=img_gallery"><img class="classe_immagini" alt="Una immagine dei miei lavori" src="img/37ico.jpg" /></a>
+						
 						<a href="gallery.php?img=25&pagina=img_gallery"><img class="classe_immagini" alt="Una immagine dei miei lavori" src="img/25ico.jpg" /><a>
 						<a href="gallery.php?img=26&pagina=img_gallery"><img class="classe_immagini" alt="Una immagine dei miei lavori" src="img/26ico.jpg" /></a>
 						<a href="gallery.php?img=27&pagina=img_gallery"><img class="classe_immagini" alt="Una immagine dei miei lavori" src="img/27ico.jpg" /></a>

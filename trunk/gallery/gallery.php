@@ -6,7 +6,7 @@
 //Impostazione delle variabili principali
 $pagina = $_GET[pagina];	//pagina di provenienza
 $img = $_GET[img];		//immagine da visualizzare
-$numero_immagini = 2;		//numero totale delle immagini nella pagina (da impostare ad ogni pagina)
+$numero_immagini = 37;		//numero totale delle immagini nella pagina (da impostare ad ogni pagina)
 
 if($pagina=="index") {		//la pagina index.php risiede nella cartella principale (non in una sottocartella): deve essere trattata diversamente dalle altre
 	$torna = "index.php"; 

@@ -72,7 +72,7 @@ $pagina = "home";
 					<span>Un mestiere, seppur per certi aspetti soggettivo, non si inventa! <br />Eseguire una potatura di un albero non &egrave; facile perch&egrave; &quot;<em>lo si &egrave; letto</em>&quot; o perch&egrave; &quot;<em>&egrave; sempre stato fatto cos&igrave;</em>&quot;. <br />Il mestiere di giardiniere &egrave; la somma di conoscenza tecnica delle piante e professionalit&agrave;. Solo in questo modo si pu&ograve; raggiungere l'obiettivo che ci si &egrave; prefissati.<br />Il lavoro deve essere eseguito con attrezzatura idonea e soprattutto con un attenzione particolare alla sicurezza di chi opera!!!<br />Un bel manto erboso non se lo pu&ograve; ottenere riportando un poco di terra e gettando dei semi (magari i semi presi in offerta al centro commerciale). Per un prato bello e duraturo, bisogna conoscer al meglio le caratteristiche del terreno. Altri aspetti fondamentali sono il momento della semina, le concimazioni mirate e, ovviamente, la scelta pi&ugrave; appropriata della semenza, che varia a seconda di ogni situazione.
 					<a href="gallery.php?pagina=index&amp;img=3"><img id="foto3" class="classe_immagini" alt="Giardiniere a Udine e in Friuli: lavori di manutenzione siepi in comune di Udine" src="img/3ico.jpg" /></a>
 					</span>
-					<br /><br /><br /><br /><br /><br /><br /><br /></p>
+					</p>
 					<h3><span>Come lavoro? Un giardiniere per la progettazione, realizzazione e manutenzione del tuo giardino</span></h3>
 					<a href="gallery.php?pagina=index&amp;img=2"><img id="foto2" class="classe_immagini" alt="Manutenzione di alberi e siepi in comune di Udine - Friuli" src="img/2ico.jpg" /></a>
 					<ul>
