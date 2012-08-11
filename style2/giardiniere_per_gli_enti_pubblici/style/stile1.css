@@ -1,0 +1,290 @@
+body 
+	{ 
+		font-family: trebuchet ms, verdana, sans-serif;
+		font-size: 13px;
+		line-height: 1.5em; 
+		color: #333; 
+		background: #cccc99;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+p 
+	{ 
+		margin-top: 0px; 
+	}
+	
+h3 
+	{ 
+		font: bold 140% trebuchet ms;
+		letter-spacing: -1px; 
+		margin-bottom: 0; 
+		color: #c96;
+	}
+	
+a:link 
+	{ 
+		text-decoration: none;
+		border-bottom: 1px dotted #369; 
+		color: #369;
+	}
+	
+a:visited 
+	{ 
+		text-decoration: none;
+		/*border-bottom: 1px dotted #369; */
+		color: #369;
+	}
+	
+a:hover, a:active 
+	{ 
+		text-decoration: none;
+		border-bottom: 1px solid #036; 
+		color: #036;
+	}
+
+/* ---( specific divs )----------------------------- */
+
+#container 
+	{
+		position: relative;
+		background: #FFFBDF no-repeat 0 92px;
+		margin: 0 auto 10px auto;
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+		border-bottom: 1px solid #000;
+		text-align: left;
+ 		width: 800px;
+	}
+
+#pageHeader
+	{
+		height: 92px;
+		background: no-repeat top left;
+	}
+
+/* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
+#pageHeader h1, #pageHeader h2 span
+	{ 
+		margin: 0;
+		padding: 0;
+		display: none;
+	}
+	
+#pageHeader h2 
+	{ 
+		position: absolute;
+		top: 110px;
+		left: 20px;
+		padding: 0;
+		margin: 0;
+		background: no-repeat top left;
+		width: 528px;
+		height: 74px;
+	}
+
+/* ---( quick summary)---------------------------- */
+
+#quickSummary 
+	{
+		position: absolute;
+		top: 92px;
+		right: 0;
+		left: auto;
+		z-index: 2;
+		width: 298px; 
+  		voice-family: "\"}\""; 
+  		voice-family:inherit;
+ 		width: 300px;
+	}
+
+html>body #quickSummary
+	{
+  		width: 300px;
+	} 
+
+#quickSummary p 
+	{
+		margin: 15px 15px 15px 15px; 
+		font-style: italic;
+		font-size: 140%; 
+		font-family: "trebuchet ms";
+		font-weight: bold;
+		line-height: 1.5em;
+		color: #444;
+	}
+
+#quickSummary p.p2 
+	{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100%;
+		margin-top: 0;
+	}
+
+#preamble 
+	{
+		margin: 104px 340px 0px 20px;
+	}
+	
+#supportingText 
+	{
+		padding-left: 20px; 
+		margin: 5em 10px 40px 0;
+	}
+
+#footer 
+	{ 
+		border-top: 1px dotted #CDC4AC;
+		padding-top: 6px;
+		text-align: center;
+	}
+	
+#footer a:link, #footer a:visited 
+	{ 
+		margin-right: 6px;
+	}
+
+/* ---( right side nav)----------------------------- */
+
+#linkList 
+	{
+		position: absolute; 
+		top: 174px; 
+		right: 0;
+		left: auto;
+		width: 300px;
+		padding: 0;
+		border-left: 1px solid #CDC4AC;
+		border-bottom: 1px solid #CDC4AC;
+		background: #E5E0D4 no-repeat;
+		z-index: 1;
+	}
+	
+#linkList2 
+	{ 
+		/*margin: 190px 15px 15px 15px; */
+	}
+
+#linkList h3
+	{
+		color: #635F57;
+		font-family: trebuchet ms;
+		font-size: 120%;
+		margin: 0 0 6px 0;
+		padding: 0;
+	}	
+	
+#linkList ul
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+#linkList li
+	{
+		display: block; 
+		margin-bottom: 2px;
+		padding-left: 14px;
+		background: no-repeat 0 5px;
+		list-style-type: none;
+	}
+	
+#linkList li a:link
+	{ 
+		color: #c96;
+		border-bottom: none;
+	}
+	
+#linkList li a:visited
+	{
+		color: #c96;
+		border-bottom: none;
+	}
+	
+#linkList li a:hover
+	{
+		color: #963;
+	}
+
+
+
+
+#lselect
+	{
+		padding: 12px 0 12px 0;
+		border-top: 1px dashed #CDC4AC;
+		border-bottom: 1px dashed #CDC4AC;
+	}
+	
+#lresources
+	{
+		margin-top: 12px;
+	}
+	
+	#listaBreadcrums li {
+		display: inline;
+		}
+
+
+#menu_contestuale li {
+display: inline;
+margin-right: 1em;
+}
+
+#breadcrums_searchEngine {
+display: none;
+}
+
+
+#menu_verticale_1 {
+display: none;
+}
+
+#form_newsletter {
+display: none;
+}
+
+.banner {
+display: none;
+}
+
+#blocchi_home {
+display: none;
+}
+
+
+#pfButton {
+float: right;
+}
+
+a img {
+border: none;
+}
+
+#lselect h3 {
+font-size: medium;
+}
+
+#foto1 {
+/*float: right;*/
+}
+#foto2 {
+/*float: right;*/
+}
+#foto3 {
+float: left;
+}
+.classe_immagini {
+border: 1px solid black;
+margin: 1em;
+}
+
+.tel {
+	color: red;
+	font-size: x-large;
+	}
+
+#titoloImg2 img {
+	width: 15em;
+}
