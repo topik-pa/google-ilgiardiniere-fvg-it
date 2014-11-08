@@ -1,158 +1,155 @@
-<!-- Home page del sito -->
-<!-- Autore: Marco Pavan - pavan.marco@email.it -->
-<!-- Data: 28 sett 2010 -->
 <?php
 //Imposto due variabili di uso generale
-$titolo_pagina = "Giardiniere a Udine in Friuli - manutenzione verde, realizzazioni giardini e abbattimento alberi";
+$titolo_pagina = "Giardiniere per abbattimenti e potature tecniche a Udine, Trieste e tutto il Friuli";
 $pagina = "home";
 ?>
 
-<!-- Dichiarazione del DOCTYPE -->
-<?php include('./includes/doctype.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
 
-<!-- Corpo del documento -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it">
-	<head>
-		<!-- Inserimento del tag head -->
-		<?php include('./includes/tag_head.php'); ?>
-	</head>
-	<body>	
-		<!-- Link per raggiungere direttamente il contenuto principale saltando le voci del men&ugrave; -->
-		<p id="vaiAlCorpoCentrale"><a href="#supportingText">Giardiniere a Udine - vai al contenuto principale</a></p>	
-		<!-- Wrapper del contenuto della pagina -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+	
+	<!-- Inserimento del tag head -->
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/headT.php'); ?>
+	
+	<body class="home">	
+			
 		<div id="container">
-			<!-- Introduzione -->
-			<div id="intro"> 
-				<!-- Header della pagina -->					
-				<?php include('./includes/tag_div_pageHeader.php'); ?>
-				<!-- Fine header della pagina -->
-				<!-- Breve riassunto degli argomenti o spazio per avvisi -->				
-				<div id="quickSummary">		
-
-				</div>
-				<!-- Fine riassunto degli argomenti o avvisi -->
-				<!-- Breve preambolo -->
-				<div id="preamble"> 
-
-				</div>				
-				<!-- Fine preamble -->
-				<!-- Menu orizzontale -->			
-				<?php include('./includes/tag_div_menu_orizzontale.php'); ?>			
-				<!-- Fine menu orizzontale -->
-				<!-- Breadcrums della pagina (modifica manuale) e search engine interno-->
-				<div id="breadcrums_searchEngine">
-
-				</div>			
-				<!-- Fine breadcrums_searchEngine -->
+			
+			<div id="header"> 
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/titoloELogo.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.php'); ?>			
 			</div>			
-			<!-- Fine div intro -->
-
-			<!-- Testo principale del documento -->
-			<div id="supportingText">
-				<!--Inclusione della funzione stampa di printFriendly -->	
-				<?php include('./includes/print_friendly.php'); ?>
-				<!-- Fine print friendly -->	
-				<!-- Indice argomenti del corpo centrale -->
-				<div id="indiceCorpoCentrale">
-					<h5>Giardiniere a Udine ed in tutto il Friuli: manutenzione verde, giardini, siepi, prati e piante da giardino. Potatura e abbattimento alberi.</h5>
-					<p>Keywords: <em>giardiniere, udine, friuli, manutenzione, verde, alberi, piante, giardino, prato, siepi, potature, abbattimento, alberi, consulenza, giardinaggio</em></p>
-	  			</div>				
-				<!-- Fine div indiceCorpoCentrale -->
-				<!-- Primo paragrafo -->
-				<div id="explanation">
-					<h3><span>Il nostro giardino: manutenzione del verde</span></h3>
-					<p>Il nostro verde di casa deve essere visto come un luogo dove stare in armonia e in relax, un posto in cui ritrovare la stessa sensazione di comfort e tranquillit&agrave; che proviamo quando siamo all'interno delle nostre pareti domestiche. <br />Il nostro giardino non deve essere uno spazio in pi&ugrave; che origina solo lavoro e grattacapi... Giusto? <br /><br />
-					</p>
-
-					<h3><span>Il mestiere di giardiniere: manutenzione del giardino e cura delle piante</span></h3>
-					<a href="gallery.php?pagina=index&amp;img=1"><img id="foto1" class="classe_immagini" alt="Giardiniere a Udine (in Friuli): lavoro di manutenzione giardino in Friuli" src="img/1ico.jpg" /></a>
+			
+			<div id="servizi">
+				<div class="abbattimenti">
+					<div class="immagini">
+						<a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">
+							<img src="/img/abbattimenti_tecnici_alberi.jpg" title="Abbattimenti e potature tecniche" alt="Abbattimento di un albero di grosso fusto e trasporto utilizzando macchinari idonei">
+						</a>
+						<a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php" title="Abbattimenti e potature tecniche" alt="Potaturte e abbattimenti tecnici di alcuni alberi in provincia di Udine">
+							<img src="/img/potatura_abbattimento_alberi.jpg">
+						</a>
+					</div>
+					<div class="descrizione">
+						<h2><a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Abbattimenti e potature tecniche con fresatura radici</a></h2>					
+						<ul>
+							<li>Potatura tecnica alberi</li>
+							<li>Abbattimento tecnico alberi</li>
+							<li>Fresatura radici</li>
+						</ul>
+						<p>Il lavoro viene eseguito utilizzando macchinari che diminuiscono di gran lunga i tempi di lavorazioni e ne semplificano l'esecuzione.</p>
 					
-					
-					<p class="p1">
-					<span>Un mestiere, seppur per certi aspetti soggettivo, non si inventa! <br />Eseguire una potatura di un albero non &egrave; facile perch&egrave; &quot;<em>lo si &egrave; letto</em>&quot; o perch&egrave; &quot;<em>&egrave; sempre stato fatto cos&igrave;</em>&quot;. <br />Il mestiere di giardiniere &egrave; la somma di conoscenza tecnica delle piante e professionalit&agrave;. Solo in questo modo si pu&ograve; raggiungere l'obiettivo che ci si &egrave; prefissati.<br />Il lavoro deve essere eseguito con attrezzatura idonea e soprattutto con un attenzione particolare alla sicurezza di chi opera!!!<br />Un bel manto erboso non se lo pu&ograve; ottenere riportando un poco di terra e gettando dei semi (magari i semi presi in offerta al centro commerciale). Per un prato bello e duraturo, bisogna conoscer al meglio le caratteristiche del terreno. Altri aspetti fondamentali sono il momento della semina, le concimazioni mirate e, ovviamente, la scelta pi&ugrave; appropriata della semenza, che varia a seconda di ogni situazione.
-					<a href="gallery.php?pagina=index&amp;img=3"><img id="foto3" class="classe_immagini" alt="Giardiniere a Udine e in Friuli: lavori di manutenzione siepi in comune di Udine" src="img/3ico.jpg" /></a>
-					</span>
-					</p>
-					<h3><span>Come lavoro? Un giardiniere per la progettazione, realizzazione e manutenzione del tuo giardino</span></h3>
-					<a href="gallery.php?pagina=index&amp;img=2"><img id="foto2" class="classe_immagini" alt="Manutenzione di alberi e siepi in comune di Udine - Friuli" src="img/2ico.jpg" /></a>
-					<ul>
-						<li><strong>Opero come giardiniere a Udine ed in tutto il Friuli</li></strong>
-						<li>Rapporto fiducioso e duraturo nel tempo</li>
-						<li>Preparazione tecnica data da studi appropriati e passione verso il tuo giardino e la manutenzione del verde</li>
-						<li>Specializzazione nella lotta contro la processionaria.</li>
-						<li>Macchinari da giardinaggio adeguati allo scopo</li>
-					</ul>
-					<p class="p2">
-
-					<span>I miei servizi comprendono tra l'altro:
-					</span>
-					</p>
-					<ul>
-						<li><em>Giardiniere manutenzione giardini</em></li>
-						<li><em>Giardiniere manutenzione verde</em></li>
-						<li><em>Giardiniere manutenzione prato</em></li>
-						<li><em>Giardiniere manutenzione piante</em></li>
-						<li><em>Giardiniere manutenzione siepi</em></li>
-						<li><em>Giardiniere abbattimento alberi</em></li>
-						<li><em>Giardiniere potatura alberi</em></li>
-						<li><em>Giardiniere progettazione giardini</em></li>
-						<li><em>Giardiniere realizzazione giardini</em></li>
-					</ul>
-					<p>Ed ancora, come giardiniere eseguo a Udine ed in tutto il Friuli:</p>
-					<ul> 
-						<li>Potature conifere e alberi d'alto fusto</li>
-						<li>Raccolta e smaltimento di tutti i residui di potatura</li>
-						<li>Progettazione, creazione e manutenzione aiuole con fornitura piante</li>
-						<li>Posa prato in rotoli</li>
-						<li>Lavorazione terreno e semine </li>
-						<li>Arieggiature e trasemine</li>
-						<li>Creazione recinzioni</li>
-						<li>Eliminazione totale della <a href="./malattie_delle_piante/processionarie/processionaria/processionaria.php" title="Giardiniere a Udine: vai alla pagina sulla processionaria">processionaria</a> e trattamenti endoterapici </li>
-						<li>Individuazione e lotta contro tutti gli attacchi parassitari e microcarenze che si possono trovare sulle piante</li>
-						<li><strong>Preventivi e consulenza gratuiti!!!</strong></li>
-					</ul>
-
-				</div>				
-				<!-- Fine div explanation -->
-				<!-- Secondo paragrafo -->
-				<div id="participation">	
-
-				</div>				
-				<!-- Fine div participation -->
-				<!-- Terzo paragrafo -->
-				<div id="benefits">		
-
-				</div>				
-				<!-- Fine div benefits -->
-				<!-- Quarto paragrafo -->
-				<div id="requirements">		
-					
-				</div>				
-				<!-- Fine div requirements -->
+						<p>L&apos;azienda porta a termine il lavoro di abbattimento e potatura tecnica di alberi d&apos;alto fusto in maniera professionale, nel rispetto di tutti gli standard di sicurezza previsti dalle normative vigenti e nel minor tempo possibile.</p>
+						
+						<p>Si eseguono, inoltre, lavori di manutenzione alberature stradali, raccolta legname, piattaforma aerea, trasporto con gru, lottizzazioni boschive, sia in ambito condominiale che aziendale.</p>
+					</div>
+					<a class="link" href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Maggiori informazioni</a>
+				</div>
 				
-				<?php include('./includes/tag_div_footer.php'); ?>
-				<!-- Fine footer -->
+				<div class="manutenzione_terreni">
+					<div class="immagini">
+						<a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">
+							<img src="/img/manutenzione_pulizia_terreni.jpg" title="Manutenzione e pulizia terreni" alt="Pulizia di un campo con eliminazione degli arbusti e livellamento del terreno">
+						</a>
+					</div>
+					<div class="descrizione">
+						<h2><a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Manutenzione, cura, pulizia terreni ed eliminazione delle sterpaglie</a></h2>					
+						<ul>
+							<li>Eliminazione di arbusti, sterpaglie e stoppie.</li>
+							<li>Livellamento del terreno</li>
+							<li>Opero sia su superfici di grandi estensioni ma anche nei piccoli appezzamenti</li>
+						</ul>
+						<p>Hai terreni trascurati, abbandonati da tempo, o in vendita? Manutenzione e cura dei terreni privati da tutto ci&ograve; che pu&ograve; essere causa di incendio, ingombro o pericoloso per la salute pubblica.</p>
+					</div>
+					<a class="link" href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Maggiori informazioni</a>
+				</div>
+				
+				<div class="movimento_terra">
+					<div class="immagini">
+						<a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">
+							<img src="/img/movimento_terra_semina.jpg" title="Movimento terra e semina" alt="Macchinario per semina di terreni con livellatura e fresatura radici">
+						</a>
+					</div>
+					<div class="descrizione">
+						<h2><a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Movimento terra e semine</a></h2>					
+						<ul>
+							<li>Semine delle migliori semenze erbacee</li>
+							<li>Fresatura e livellatura terreni per mezzo di interra sassi</li>
+							<li>Possibilit&agrave; di importo o esporto terra vagliata</li>
+						</ul>
+						<p>Semine autunno-primaverili delle migliori semenze erbacee reperibili sul mercato. Fresatura e livellatura terreni per mezzo di interra sassi su piccole e grandi superfici.</p>
+					</div>
+					<a class="link" href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Maggiori informazioni</a>
+				</div>
+				
+				<div class="giardiniere_privati">
+					<div class="immagini">
+						<a href="/giardiniere_per_privati/giardiniere_per_privati.php">
+							<img src="/img/giardiniere_giardini_parchi_condominiali.jpg" title="Giardiniere per privati: cura giardini e parchi condominiali" alt="Giardino privato realizzato da Il Giardiniere">
+						</a>
+					</div>
+					<div class="descrizione">
+						<h2><a href="/giardiniere_per_privati/giardiniere_per_privati.php">Giardiniere per privati: cura giardini e parchi condominiali</a></h2>					
+						<ul>
+							<li>Manutenzione del verde pubblico o privato</li>
+							<li>Rapporto fiducioso e duraturo nel tempo</li>
+							<li>Macchinari da giardinaggio adeguati allo scopo e adeguati alle ultime normative in tema di sicurezza</li>
+						</ul>
+						<p>Come lavoro? Un giardiniere per la progettazione, realizzazione e manutenzione del tuo giardino.</p>
+					</div>
+					<a class="link" href="/giardiniere_per_privati/giardiniere_per_privati.php">Maggiori informazioni</a>
+				</div>
+			</div>
+
+			<div id="mainContent">
+				<h2>Chi sono: un giardiniere esperto e qualificato che opera nelle provincie di Udine e Trieste</h2>
+				<p>
+					Spinto dalla passione per le piante e per i &quot;giardini ben fatti&quot;, con tanta buona volont&agrave; e pazienza ho creato <strong>una giovane azienda</strong> specializzata nella manutenzione di piante e di tutto ci&ograve; che la Natura ci offre per gestire il nostro giardino. Nonostante la mia giovane et&agrave; la mia azienda ha gi&agrave; avuto la possibilit&agrave; di maturare una <strong>pluriennale esperienza</strong> nel settore del giardinaggio.<br /> Propongo soluzioni originali e creative cercando il pi&ugrave; possibile di mantenerle equilibrate con i prezzi, offrendo <strong>supporto e consulenza continui nel tempo</strong>.
+				</p>
+				<a href="gallery.php?pagina=index&amp;img=1"><img id="img1" alt="Alcuni dei lavori svolti nei comuni di: Codroipo, Tavagnacco, Latisana, Cervignano." src="img/1ico.jpg" /></a>
+				
+				<p>
+					Dirigo personalmente questa infrastruttura aziendale aiutato dalla qualifica di perito agrario (qualifica ottenuta a Cividale del Friuli con specializzazione in ortoflorovivaismo). Eseguo <strong>qualsiasi preventivo in tutto il Friuli-Venezia Giulia</strong> (principalmente nella provincia di Udine e Trieste) in modo totalmente gratuito. Dispongo della possibilit&agrave; di macinare i residui di potatura in maniera ecocompatibile ed ecosostenibile per l'ambiente, inoltre riutilizzo il materiale di scarto per creare dell'ottima pacciamatura per le aiuole.
+					<a class="torna" href="#mainContent">Torna in alto</a>
+				</p>
+				
+				<h2>Dove opero: provincie di Udine e Trieste - Codroipo, Tavagnacco, Latisana, Cervignano, Monfalcone, Ronchi dei Legionari...</h2>
+				<p>
+					La sede legale &egrave; a <strong>Udine</strong>, opero in tutta la provincia udinese, nella provincia di Trieste ed in <strong>tutto il Friuli-Venezia Giulia</strong>. <br/>
+					Ho svolto servizi di giardinaggio, manutenzione del verde e abbattimento alberi a: <strong>Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo</strong>.<br/>
+					Opero come giardiniere anche nei comuni di:  <strong>Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Manzano</strong>...<br/>
+					Effettuo lavori di <strong>giardinaggio e abbattimento alberi anche a Trieste</strong> e nella provincia di Trieste: ho lavorato anche nei comuni di <strong>Monfalcone</strong> e di <strong>Ronchi dei Legionari</strong>. <br/>
+					Preventivi e consulenza gratuiti: se hai bisogno di un giardiniere per piccoli o grandi lavori e ti trovi nella provincia di Udine e Trieste, non esitare a contattarmi!</br>				
+					<a href="gallery.php?pagina=index&amp;img=2"><img id="img2" alt="Lavori di giardinaggio nei comuni di: Aquileia, Palmanova" src="img/2ico.jpg" /></a>
+					<a class="torna_in_alto" href="#mainContent">Torna in alto</a>
+				</p>
+				
+				<h2>Macchinari: attrezzature di giardinaggio professionali, efficienti e sicure</h2>
+				<p>
+					Dispongo di tutte le attrezzature professionali necessarie per la creazione e la manutenzione dei vostri prati, per  quanto riguarda i lavori da svolgere in altezza mi avvalgo di attrezzatura a norma di legge e con un occhio vigile alla sicurezza personale e di terzi.<br />
+					<a href="gallery.php?pagina=index&amp;img=3"><img id="img3" alt="Il giardiniere a Udine e Trieste" src="img/3ico.jpg" /></a>
+					<a href="gallery.php?pagina=index&amp;img=7"><img id="img4" alt="Lavori di giardinaggio nei comuni di: Cividale, Campoformido, Pasian di Prato" src="img/7ico.jpg" /></a>
+					<a href="gallery.php?pagina=index&amp;img=5"><img id="img5" alt="Lavori di giardinaggio nei comuni di: Codroipo, Tavagnacco, Latisana" src="img/5ico.jpg" /></a>
+					<a href="gallery.php?pagina=index&amp;img=6"><img id="img6" alt="Lavori di giardinaggio nei comuni di: Cervignano, Cividale, Campoformido" src="img/6ico.jpg" /></a>
+					<a href="gallery.php?pagina=index&amp;img=4"><img id="img7" alt="Lavori di giardinaggio nei comuni di: Fagagna, San Daniele del Friuli, San Giorgio di Nogaro" src="img/4ico.jpg" /></a>
+					<a href="gallery.php?pagina=index&amp;img=8"><img id="img8" alt="Lavori di giardinaggio nei comuni di: Monfalcone e di Ronchi dei Legionari" src="img/8ico.jpg" /></a>
+				</p>
+				<a class="torna_in_alto" href="#mainContent">Torna in alto</a>
+				
+				<div id="keywords">
+					<p><br/>Keywords: <em>Giardiniere, Udine, Trieste, Friuli, manutenzione, giardini, abbattimento, alberi, Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo, Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Cividale, Manzano, Monfalcone, Ronchi.</em><br/><br/></p>
+	  			</div>			
+				
+			</div>
+			
+			<div id="footer">
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
 			</div>				
-			<!-- Fine div supportingText -->
-			<!-- LinkList (menu di navigazione) -->
-			<div id="linkList">
-				<!-- Menu di navigazione 1 -->
-				<?php include('./includes/tag_div_Navigation1.php'); ?>	
-				<!-- LinkList2 (menu2) -->		
-				<div id="linkList2">	
-							
-				</div>	
-				<!-- Fine div linkList2 (menu2) -->
-			</div>	
-			<!-- Fine div linkList (menu) -->
-		</div>			
-		<!-- Fine div container -->
-		<!-- Sezioni div extra per immagini, toolbox etc...
-		<div id="extraDiv1"><span></span></div><div id="extraDiv2"><span></span></div><div id="extraDiv3"><span></span></div>
-		<div id="extraDiv4"><span></span></div><div id="extraDiv5"><span></span></div><div id="extraDiv6"><span></span></div>
-		-->
+			
+		</div>	
+		
 		<!-- Inserimento codice StatCounter -->
-		<?php include('./includes/statCounterCode.php'); ?>
+		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/statCounter.php'); ?>
 		<!-- Fine codice StatCounter -->
 	</body>
 </html>

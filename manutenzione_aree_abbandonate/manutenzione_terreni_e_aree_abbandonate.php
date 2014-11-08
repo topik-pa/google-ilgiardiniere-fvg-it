@@ -1,6 +1,6 @@
 <?php
 //Imposto due variabili di uso generale
-$titolo_pagina = "Manutenzione e cura terreni da sterpaglie, stoppie, siepi, cespugli, arbusti e detriti - Manutenzione terreni";
+$titolo_pagina = "Manutenzione e cura di terreni e giardini a Udine e Trieste. Eliminazione arbusti e sterpaglie.";
 $pagina = "manutenzione_terreni";
 ?>
 
@@ -30,6 +30,7 @@ $pagina = "manutenzione_terreni";
 					E&apos; da notare che questo tipo di servizio pu&oacute; tornare <strong>molto utile a chi ha intenzione di vendere un terreno</strong>: presentandolo ordinato e curato non solo ad occhio sembrer&agrave; pi&ugrave; vasto, ma un terreno in buone condizioni &egrave; molto pi&ugrave; appetibile per il futuro cliente. <br>
 					Tutti noi dovremmo aver cura del nostro territorio, &egrave; s&iacute; nostro, ma <strong>il paesaggio e la salute sono di tutti!</strong>
 				</p>
+				<img src="img/1ico.jpg"/>
 			</div>
 			
 			<div id="footer">

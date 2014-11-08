@@ -1,7 +1,7 @@
 <?php
 //Imposto due variabili di uso generale
-$titolo_pagina = "Giardinaggio e manutenzione giardino a Udine (Friuli-Venezia Giulia)";
-$pagina = "contatti";
+$titolo_pagina = "Giardiniere per gli enti pubblici, comuni, amministrazioni, uffici pubblici";
+$pagina = "giardiniere_enti_pubblici";
 ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
@@ -11,7 +11,7 @@ $pagina = "contatti";
 	<!-- Inserimento del tag head -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/headT.php'); ?>
 	
-	<body class="contatti">	
+	<body class="giardiniere_enti_pubblici">	
 			
 		<div id="container">
 			
@@ -21,10 +21,10 @@ $pagina = "contatti";
 			</div>			
 			
 			<div id="mainContent">						
-				<h3>Contatti</h3>
-				<p><br /><br />Opero nella zona di Udine ed in tutta la regione Friuli Venezia Giulia. <br />Contattami, per fissare un appuntamento o per richiedere maggiorni informazioni, al seguente recapito telefonico.</p>
-				<p><br /><br /><strong>Giulio Modotti</strong></p>	
-				<p>Cell: <strong class="tel">+39 340 1733526</strong></p><br />
+				<p>
+					<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=1"><img id="foto1" alt="Giardiniere a Udine e in Friuli: attestato primo soccorso" src="img/1ico.jpg" /></a>
+					<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=2"><img id="foto2" alt="Giardiniere a Udine e in Friuli: attestato prevenzione e sicurezza negli ambienti lavorativi" src="img/2ico.jpg" /></a>
+				</p>
 			</div>
 			
 			<div id="footer">
