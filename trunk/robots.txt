@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /includes
+Disallow: /forbidden  
+Disallow: /consigli 
+Disallow: /manutenzione_terreni 
+
+Sitemap: http://www.ilgiardiniere.fvg.it/sitemap.xml
