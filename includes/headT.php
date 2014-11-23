@@ -4,7 +4,7 @@
 	<meta name="author" content="Marco Pavan" />
 	<meta http-equiv="Content-Type" content="application/xhtml+xml" />
 	<meta name="robots" content="index,follow" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
 	<!-- Inserimento metatag specifici per pagina -->
 	<?php
@@ -88,9 +88,16 @@
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<link rel="shortcut icon" href="/img/favicon.png"  />
 
-	<script src="/javascript/jquery-2.1.1.min.js"></script>
+	<script src="/javascript/jquery-2.1.1.min.js" type="text/javascript"></script>
 
-	<link rel="stylesheet" type="text/css" href="./style/stile.css" />
+	<link rel="stylesheet" type="text/css" href="/style/style.css" />
+	
+	<!-- bxSlider Javascript file -->
+	<script src="/javascript/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="/style/jquery.bxslider.css" rel="stylesheet" />
+	
+	<script src="/javascript/site.js"></script>
 	
 	<!-- Regole aggiuntive per browser Microsoft -->
 	<!--[if IE]>

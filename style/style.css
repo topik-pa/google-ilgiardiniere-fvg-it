@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 14px;
+}
+
+a {
+	color: #cc9966;
+	text-decoration:none;
+}
+a:hover {
+	color:#cccc99;
+}
+
+.top-row-wrapper {
+	background-color: #333333;
+}
+#top-row {
+	margin: 0 auto;
+    width: 990px;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 7px 0;
+}
+#top-row .top-row-section {
+	display: inline-block;
+    height: 20px;
+	margin-right: 50px;
+}
+#top-row .top-row-section  img{
+	vertical-align: sub;
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+#header {
+    height: 122px;
+	margin: 20px auto;
+    width: 990px;
+}
+
+#pageHeader {
+	float: left;
+}
+
+#menu-top {
+	float: right;
+	line-height: 122px;
+}
+
+#menu-top li{
+	display:inline;
+}
+
+#menu-top li a{
+	padding:0 8px;
+	font-weight: bold;
+}
+
+#menu-top li a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+#main-slider {
+	clear: both;
+	margin: 20px auto;
+    width: 990px;
+}
+
+
+
+
+
+
+
+#hp_title {
+	background-color: #333333;
+	color: #FFFFFF;
+	height: 30px;
+	line-height:30px;
+	text-align:center;
+	padding: 20px 0;
+	font-size: 1.3em;
+}
+
+
+
+
+
+
+#servizi {
+	height: 230px;
+    margin: 15px auto 50px;
+    width: 990px;
+}
+#servizi .servizio  {
+	float: left;
+    width: 25%;
+	position: relative;
+}
+
+.servizio  .immagini {
+	float: left;
+    margin-right: 10px;
+}
+
+.servizio  .descrizione {
+	margin-right: 10px;
+}
+
+.servizio  h2 {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.servizio  a {
+	margin-right: 10px;
+}
+
+.servizio  a.button {
+	position:absolute;
+	bottom:0;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+#sezioni  {
+	text-align:center;
+	margin: 20px auto;
+    width: 990px;
+}
+
+#sezioni .sezione  {
+	float: left;
+    margin-right: 45px;
+    width: 300px;
+}
+#sezioni .sezione.last  {
+    margin-right: 0;
+}
+.sezione h3  {
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+	clear: both;
+    padding-top: 50px;
+}
+
+#footer .menu-bottom {
+	border-top: 1px solid #333;
+    line-height: 30px;
+    text-align: center;
+}
+
+#footer .menu-bottom a{
+	padding: 10px;
+}
+
+#committente {
+	background-color: #333;
+    color: #fff;
+    line-height: 25px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#committente .recapiti .tel {
+	margin-right: 30px;
+}

@@ -14,94 +14,118 @@ $pagina = "home";
 	<body class="home">	
 			
 		<div id="container">
+		
 			
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/top_row.php'); ?>
+					
 			<div id="header"> 
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/titoloELogo.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/pageHeader.php'); ?>
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.php'); ?>			
-			</div>			
+			</div>		
+
+
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/main-slider.php'); ?>
+			
+			<div id="hp_title">
+				<h1>Giardiniere Giulio Modotti: giardinaggio a Udine, Trieste ed in tutto il Friuli-Venezia Giulia</h1>
+			</div>
 			
 			<div id="servizi">
-				<div class="abbattimenti">
+			
+				<div class="servizio abbattimenti">
 					<div class="immagini">
 						<a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">
-							<img src="/img/abbattimenti_tecnici_alberi.jpg" title="Abbattimenti e potature tecniche" alt="Abbattimento di un albero di grosso fusto e trasporto utilizzando macchinari idonei">
-						</a>
-						<a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php" title="Abbattimenti e potature tecniche" alt="Potaturte e abbattimenti tecnici di alcuni alberi in provincia di Udine">
-							<img src="/img/potatura_abbattimento_alberi.jpg">
+							<!--<img src="/img/abbattimenti_tecnici_alberi.jpg" title="Abbattimenti e potature tecniche" alt="Abbattimento di un albero di grosso fusto e trasporto utilizzando macchinari idonei"/>-->
+							<img src="http://placehold.it/100x230"/>
 						</a>
 					</div>
-					<div class="descrizione">
-						<h2><a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Abbattimenti e potature tecniche con fresatura radici</a></h2>					
-						<ul>
-							<li>Potatura tecnica alberi</li>
-							<li>Abbattimento tecnico alberi</li>
-							<li>Fresatura radici</li>
-						</ul>
-						<p>Il lavoro viene eseguito utilizzando macchinari che diminuiscono di gran lunga i tempi di lavorazioni e ne semplificano l'esecuzione.</p>
 					
-						<p>L&apos;azienda porta a termine il lavoro di abbattimento e potatura tecnica di alberi d&apos;alto fusto in maniera professionale, nel rispetto di tutti gli standard di sicurezza previsti dalle normative vigenti e nel minor tempo possibile.</p>
-						
-						<p>Si eseguono, inoltre, lavori di manutenzione alberature stradali, raccolta legname, piattaforma aerea, trasporto con gru, lottizzazioni boschive, sia in ambito condominiale che aziendale.</p>
+					<h2><a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Abbattimenti e potature tecniche con fresatura radici</a></h2>					
+					
+					<div class="descrizione">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
 					</div>
-					<a class="link" href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Maggiori informazioni</a>
+					<a class="button" href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Maggiori informazioni</a>
 				</div>
 				
-				<div class="manutenzione_terreni">
+				<div class="servizio manutenzione_terreni">
 					<div class="immagini">
 						<a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">
-							<img src="/img/manutenzione_pulizia_terreni.jpg" title="Manutenzione e pulizia terreni" alt="Pulizia di un campo con eliminazione degli arbusti e livellamento del terreno">
+							<!--<img src="/img/manutenzione_pulizia_terreni.jpg" title="Manutenzione e pulizia terreni" alt="Pulizia di un campo con eliminazione degli arbusti e livellamento del terreno"/>-->
+							<img src="http://placehold.it/100x230"/>
 						</a>
 					</div>
+					
+					<h2><a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Manutenzione, cura, pulizia terreni ed eliminazione delle sterpaglie</a></h2>					
+					
 					<div class="descrizione">
-						<h2><a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Manutenzione, cura, pulizia terreni ed eliminazione delle sterpaglie</a></h2>					
-						<ul>
-							<li>Eliminazione di arbusti, sterpaglie e stoppie.</li>
-							<li>Livellamento del terreno</li>
-							<li>Opero sia su superfici di grandi estensioni ma anche nei piccoli appezzamenti</li>
-						</ul>
-						<p>Hai terreni trascurati, abbandonati da tempo, o in vendita? Manutenzione e cura dei terreni privati da tutto ci&ograve; che pu&ograve; essere causa di incendio, ingombro o pericoloso per la salute pubblica.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
 					</div>
-					<a class="link" href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Maggiori informazioni</a>
+					<a class="button" href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Maggiori informazioni</a>
 				</div>
 				
-				<div class="movimento_terra">
+				<div class="servizio movimento_terra">
 					<div class="immagini">
 						<a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">
-							<img src="/img/movimento_terra_semina.jpg" title="Movimento terra e semina" alt="Macchinario per semina di terreni con livellatura e fresatura radici">
+							<!--<img src="/img/movimento_terra_semina.jpg" title="Movimento terra e semina" alt="Macchinario per semina di terreni con livellatura e fresatura radici"/>-->
+							<img src="http://placehold.it/100x230"/>
 						</a>
 					</div>
+					
+					<h2><a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Movimento terra e semine</a></h2>					
+					
 					<div class="descrizione">
-						<h2><a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Movimento terra e semine</a></h2>					
-						<ul>
-							<li>Semine delle migliori semenze erbacee</li>
-							<li>Fresatura e livellatura terreni per mezzo di interra sassi</li>
-							<li>Possibilit&agrave; di importo o esporto terra vagliata</li>
-						</ul>
-						<p>Semine autunno-primaverili delle migliori semenze erbacee reperibili sul mercato. Fresatura e livellatura terreni per mezzo di interra sassi su piccole e grandi superfici.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
 					</div>
-					<a class="link" href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Maggiori informazioni</a>
+					<a class="button" href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Maggiori informazioni</a>
 				</div>
 				
-				<div class="giardiniere_privati">
+				<div class="servizio giardiniere_privati">
 					<div class="immagini">
 						<a href="/giardiniere_per_privati/giardiniere_per_privati.php">
-							<img src="/img/giardiniere_giardini_parchi_condominiali.jpg" title="Giardiniere per privati: cura giardini e parchi condominiali" alt="Giardino privato realizzato da Il Giardiniere">
+							<!--<img src="/img/giardiniere_giardini_parchi_condominiali.jpg" title="Giardiniere per privati: cura giardini e parchi condominiali" alt="Giardino privato realizzato da Il Giardiniere"/>-->
+							<img src="http://placehold.it/100x230"/>
 						</a>
 					</div>
+					
+					<h2><a href="/giardiniere_per_privati/giardiniere_per_privati.php">Giardiniere per privati: cura giardini e parchi condominiali</a></h2>					
+					
 					<div class="descrizione">
-						<h2><a href="/giardiniere_per_privati/giardiniere_per_privati.php">Giardiniere per privati: cura giardini e parchi condominiali</a></h2>					
-						<ul>
-							<li>Manutenzione del verde pubblico o privato</li>
-							<li>Rapporto fiducioso e duraturo nel tempo</li>
-							<li>Macchinari da giardinaggio adeguati allo scopo e adeguati alle ultime normative in tema di sicurezza</li>
-						</ul>
-						<p>Come lavoro? Un giardiniere per la progettazione, realizzazione e manutenzione del tuo giardino.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
 					</div>
-					<a class="link" href="/giardiniere_per_privati/giardiniere_per_privati.php">Maggiori informazioni</a>
+					<a class="button" href="/giardiniere_per_privati/giardiniere_per_privati.php">Maggiori informazioni</a>
 				</div>
+				
+			</div>
+			
+			<div id="sezioni">
+				<div class="sezione certificati_professionali">
+					<a href="/certificati_professionali_giardiniere/certificati_professionali_giardiniere.php">
+						<img src="http://placehold.it/300x230"/>
+					</a>
+					
+					<h3><a href="/certificati_professionali_giardiniere/certificati_professionali_giardiniere.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
+				</div>
+				
+				<div class="sezione tipologie_di_lavori">
+					<a href="/giardiniere_trieste/lavori_giardiniere_trieste.php">
+						<img src="http://placehold.it/300x230"/>
+					</a>
+					
+					<h3><a href="/giardiniere_trieste/lavori_giardiniere_trieste.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
+				</div>
+				
+				<div class="sezione contatti last">
+					<a href="/contatti/contatti.php">
+						<img src="http://placehold.it/300x230"/>
+					</a>
+					
+					<h3><a href="/contatti/contatti.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
+				</div>
+				
 			</div>
 
-			<div id="mainContent">
+			<!--<div id="mainContent">
 				<h2>Chi sono: un giardiniere esperto e qualificato che opera nelle provincie di Udine e Trieste</h2>
 				<p>
 					Spinto dalla passione per le piante e per i &quot;giardini ben fatti&quot;, con tanta buona volont&agrave; e pazienza ho creato <strong>una giovane azienda</strong> specializzata nella manutenzione di piante e di tutto ci&ograve; che la Natura ci offre per gestire il nostro giardino. Nonostante la mia giovane et&agrave; la mia azienda ha gi&agrave; avuto la possibilit&agrave; di maturare una <strong>pluriennale esperienza</strong> nel settore del giardinaggio.<br /> Propongo soluzioni originali e creative cercando il pi&ugrave; possibile di mantenerle equilibrate con i prezzi, offrendo <strong>supporto e consulenza continui nel tempo</strong>.
@@ -119,7 +143,7 @@ $pagina = "home";
 					Ho svolto servizi di giardinaggio, manutenzione del verde e abbattimento alberi a: <strong>Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo</strong>.<br/>
 					Opero come giardiniere anche nei comuni di:  <strong>Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Manzano</strong>...<br/>
 					Effettuo lavori di <strong>giardinaggio e abbattimento alberi anche a Trieste</strong> e nella provincia di Trieste: ho lavorato anche nei comuni di <strong>Monfalcone</strong> e di <strong>Ronchi dei Legionari</strong>. <br/>
-					Preventivi e consulenza gratuiti: se hai bisogno di un giardiniere per piccoli o grandi lavori e ti trovi nella provincia di Udine e Trieste, non esitare a contattarmi!</br>				
+					Preventivi e consulenza gratuiti: se hai bisogno di un giardiniere per piccoli o grandi lavori e ti trovi nella provincia di Udine e Trieste, non esitare a contattarmi!<br/>				
 					<a href="gallery.php?pagina=index&amp;img=2"><img id="img2" alt="Lavori di giardinaggio nei comuni di: Aquileia, Palmanova" src="img/2ico.jpg" /></a>
 					<a class="torna_in_alto" href="#mainContent">Torna in alto</a>
 				</p>
@@ -140,7 +164,7 @@ $pagina = "home";
 					<p><br/>Keywords: <em>Giardiniere, Udine, Trieste, Friuli, manutenzione, giardini, abbattimento, alberi, Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo, Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Cividale, Manzano, Monfalcone, Ronchi.</em><br/><br/></p>
 	  			</div>			
 				
-			</div>
+			</div>-->
 			
 			<div id="footer">
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
