@@ -1,7 +1,7 @@
 <?php
 //Imposto due variabili di uso generale
-$titolo_pagina = "Giardiniere per gli enti pubblici, comuni, amministrazioni, uffici pubblici";
-$pagina = "giardiniere_enti_pubblici";
+$titolo_pagina = "Giardiniere per movimento terra e semina terreni con fresatura radici e livellatura";
+$pagina = "movimento_terra";
 ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
@@ -30,11 +30,20 @@ $pagina = "giardiniere_enti_pubblici";
 				
 				
 				<div id="mainContent">						
+					<h3>Movimento terra e semine</h3>
 					<p>
-						<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=1"><img id="foto1" alt="Giardiniere a Udine e in Friuli: attestato primo soccorso" src="img/1ico.jpg" /></a>
-						<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=2"><img id="foto2" alt="Giardiniere a Udine e in Friuli: attestato prevenzione e sicurezza negli ambienti lavorativi" src="img/2ico.jpg" /></a>
+						Semine autunno-primaverili delle migliori semenze erbacee reperibili sul mercato quali festuche e loietti.<br/>
+						Fresatura e livellatura terreni per mezzo di interra sassi su piccole e grandi superfici.<br/>
+						Un interra sassi &egrave; un macchinario innovativo che permette la lavorazione del terreno eliminando tutti i sassi e lasciando un risultato ottimale del letto di semina.<br/>
+						Possibilit&agrave; di importo o esporto terra vagliata: &egrave; possibile apportare terra di buona qualit&agrave; nei terreni di scarsa qualit&agrave;.
+					</p>
+					<img src="img/1ico.JPG?ver=3"/>
+					
+					<p> 
+					<a class="torna_in_alto" href="#supportingText">Torna in alto</a>
 					</p>
 				</div>
+
 			</main>
 
 			

@@ -1,7 +1,7 @@
 <?php
 //Imposto due variabili di uso generale
-$titolo_pagina = "Giardiniere per gli enti pubblici, comuni, amministrazioni, uffici pubblici";
-$pagina = "giardiniere_enti_pubblici";
+$titolo_pagina = "Abbattimenti e potature tecniche di alberi e piante con fresatura radici";
+$pagina = "potature_tecniche";
 ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
@@ -30,11 +30,13 @@ $pagina = "giardiniere_enti_pubblici";
 				
 				
 				<div id="mainContent">						
+					<h3>Abbattimenti e potature tecniche con fresatura radici</h3>
 					<p>
-						<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=1"><img id="foto1" alt="Giardiniere a Udine e in Friuli: attestato primo soccorso" src="img/1ico.jpg" /></a>
-						<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=2"><img id="foto2" alt="Giardiniere a Udine e in Friuli: attestato prevenzione e sicurezza negli ambienti lavorativi" src="img/2ico.jpg" /></a>
-					</p>
+						Molte persone si offrono di abbattere o potare alberi, molto spesso, per&ograve;, i lavori sono fatti da personale non qualificato che sopravvaluta la sua capacit&agrave; e che lavora in condizioni poco sicure e con molta superficialit&agrave;. L&apos;azienda porta a termine il lavoro in maniera professionale, nel rispetto di tutti gli standard di sicurezza previsti dalle normative vigenti, e nel minor tempo possibile. Tutto questo grazie alla passione e all&apos;esperienza pluriennale coltivata nel tempo. 
+						<br/>Utilizziamo macchinari che abbattono di gran lunga i tempi di lavorazioni e ne semplificano l&apos;esecuzione.    
+					</p>				
 				</div>
+
 			</main>
 
 			
