@@ -18,112 +18,119 @@ $pagina = "home";
 			
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/top_row.php'); ?>
 					
-			<div id="header"> 
+			<header id="header"> 
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/pageHeader.php'); ?>
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.php'); ?>			
-			</div>		
+			</header>		
 
 
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/main-slider.php'); ?>
 			
-			<div id="hp_title">
-				<h1>Giardiniere Giulio Modotti: giardinaggio a Udine, Trieste ed in tutto il Friuli-Venezia Giulia</h1>
-			</div>
-			
-			<div id="servizi">
-			
-				<div class="servizio abbattimenti">
-					<div class="immagini">
-						<a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">
-							<!--<img src="/img/abbattimenti_tecnici_alberi.jpg" title="Abbattimenti e potature tecniche" alt="Abbattimento di un albero di grosso fusto e trasporto utilizzando macchinari idonei"/>-->
-							<img src="http://placehold.it/100x230"/>
+			<main>
+				<section class="main-title">
+					<h1>Giardiniere Giulio Modotti: giardinaggio a Udine, Trieste ed in tutto il Friuli-Venezia Giulia</h1>
+				</section>
+				
+				
+				<div class="wrapper-servizi wrapper">
+					<section id="servizi">
+					
+						<div class="servizio abbattimenti">
+							<div class="immagini">
+								<a href="/Servizi/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">
+									<!--<img src="/img/abbattimenti_tecnici_alberi.jpg" title="Abbattimenti e potature tecniche" alt="Abbattimento di un albero di grosso fusto e trasporto utilizzando macchinari idonei"/>-->
+									<img src="http://placehold.it/100x230"/>
+								</a>
+							</div>
+							
+							<h2><a href="/Servizi/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Abbattimenti e potature tecniche con fresatura radici</a></h2>					
+							
+							<div class="descrizione">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
+							</div>
+							<a class="button" href="/Servizi/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Maggiori informazioni</a>
+						</div>
+						
+						<div class="servizio manutenzione_terreni">
+							<div class="immagini">
+								<a href="/Servizi/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">
+									<!--<img src="/img/manutenzione_pulizia_terreni.jpg" title="Manutenzione e pulizia terreni" alt="Pulizia di un campo con eliminazione degli arbusti e livellamento del terreno"/>-->
+									<img src="http://placehold.it/100x230"/>
+								</a>
+							</div>
+							
+							<h2><a href="/Servizi/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Manutenzione, cura, pulizia terreni ed eliminazione delle sterpaglie</a></h2>					
+							
+							<div class="descrizione">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
+							</div>
+							<a class="button" href="/Servizi/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Maggiori informazioni</a>
+						</div>
+						
+						<div class="servizio movimento_terra">
+							<div class="immagini">
+								<a href="/Servizi/movimento_terra_e_semine/movimento_terra_e_semine.php">
+									<!--<img src="/img/movimento_terra_semina.jpg" title="Movimento terra e semina" alt="Macchinario per semina di terreni con livellatura e fresatura radici"/>-->
+									<img src="http://placehold.it/100x230"/>
+								</a>
+							</div>
+							
+							<h2><a href="/Servizi/movimento_terra_e_semine/movimento_terra_e_semine.php">Movimento terra e semine</a></h2>					
+							
+							<div class="descrizione">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
+							</div>
+							<a class="button" href="/Servizi/movimento_terra_e_semine/movimento_terra_e_semine.php">Maggiori informazioni</a>
+						</div>
+						
+						<div class="servizio giardiniere_privati">
+							<div class="immagini">
+								<a href="/Servizi/giardiniere_per_privati/giardiniere_per_privati.php">
+									<!--<img src="/img/giardiniere_giardini_parchi_condominiali.jpg" title="Giardiniere per privati: cura giardini e parchi condominiali" alt="Giardino privato realizzato da Il Giardiniere"/>-->
+									<img src="http://placehold.it/100x230"/>
+								</a>
+							</div>
+							
+							<h2><a href="/Servizi/giardiniere_per_privati/giardiniere_per_privati.php">Giardiniere per privati: cura giardini e parchi condominiali</a></h2>					
+							
+							<div class="descrizione">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
+							</div>
+							<a class="button" href="/Servizi/giardiniere_per_privati/giardiniere_per_privati.php">Maggiori informazioni</a>
+						</div>
+						
+					</section>
+				</div>
+				
+				<section id="sezioni">
+					<div class="sezione certificati_professionali">
+						<a href="/certificati_professionali_giardiniere/certificati_professionali_giardiniere.php">
+							<img src="http://placehold.it/300x230"/>
 						</a>
+						
+						<h3><a href="/certificati_professionali_giardiniere/certificati_professionali_giardiniere.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
 					</div>
 					
-					<h2><a href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Abbattimenti e potature tecniche con fresatura radici</a></h2>					
-					
-					<div class="descrizione">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
-					</div>
-					<a class="button" href="/abbattimenti_e_potature_tecniche/abbattimenti_e_potature_tecniche.php">Maggiori informazioni</a>
-				</div>
-				
-				<div class="servizio manutenzione_terreni">
-					<div class="immagini">
-						<a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">
-							<!--<img src="/img/manutenzione_pulizia_terreni.jpg" title="Manutenzione e pulizia terreni" alt="Pulizia di un campo con eliminazione degli arbusti e livellamento del terreno"/>-->
-							<img src="http://placehold.it/100x230"/>
+					<div class="sezione tipologie_di_lavori">
+						<a href="/Extra/giardiniere_trieste/lavori_giardiniere_trieste.php">
+							<img src="http://placehold.it/300x230"/>
 						</a>
+						
+						<h3><a href="/Extra/giardiniere_trieste/lavori_giardiniere_trieste.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
 					</div>
 					
-					<h2><a href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Manutenzione, cura, pulizia terreni ed eliminazione delle sterpaglie</a></h2>					
-					
-					<div class="descrizione">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
-					</div>
-					<a class="button" href="/manutenzione_aree_abbandonate/manutenzione_terreni_e_aree_abbandonate.php">Maggiori informazioni</a>
-				</div>
-				
-				<div class="servizio movimento_terra">
-					<div class="immagini">
-						<a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">
-							<!--<img src="/img/movimento_terra_semina.jpg" title="Movimento terra e semina" alt="Macchinario per semina di terreni con livellatura e fresatura radici"/>-->
-							<img src="http://placehold.it/100x230"/>
+					<div class="sezione contatti last">
+						<a href="/contatti/contatti.php">
+							<img src="http://placehold.it/300x230"/>
 						</a>
+						
+						<h3><a href="/contatti/contatti.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
 					</div>
 					
-					<h2><a href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Movimento terra e semine</a></h2>					
+					<div class="clear"></div>
 					
-					<div class="descrizione">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
-					</div>
-					<a class="button" href="/movimento_terra_e_semine/movimento_terra_e_semine.php">Maggiori informazioni</a>
-				</div>
-				
-				<div class="servizio giardiniere_privati">
-					<div class="immagini">
-						<a href="/giardiniere_per_privati/giardiniere_per_privati.php">
-							<!--<img src="/img/giardiniere_giardini_parchi_condominiali.jpg" title="Giardiniere per privati: cura giardini e parchi condominiali" alt="Giardino privato realizzato da Il Giardiniere"/>-->
-							<img src="http://placehold.it/100x230"/>
-						</a>
-					</div>
-					
-					<h2><a href="/giardiniere_per_privati/giardiniere_per_privati.php">Giardiniere per privati: cura giardini e parchi condominiali</a></h2>					
-					
-					<div class="descrizione">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</p>
-					</div>
-					<a class="button" href="/giardiniere_per_privati/giardiniere_per_privati.php">Maggiori informazioni</a>
-				</div>
-				
-			</div>
-			
-			<div id="sezioni">
-				<div class="sezione certificati_professionali">
-					<a href="/certificati_professionali_giardiniere/certificati_professionali_giardiniere.php">
-						<img src="http://placehold.it/300x230"/>
-					</a>
-					
-					<h3><a href="/certificati_professionali_giardiniere/certificati_professionali_giardiniere.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
-				</div>
-				
-				<div class="sezione tipologie_di_lavori">
-					<a href="/giardiniere_trieste/lavori_giardiniere_trieste.php">
-						<img src="http://placehold.it/300x230"/>
-					</a>
-					
-					<h3><a href="/giardiniere_trieste/lavori_giardiniere_trieste.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
-				</div>
-				
-				<div class="sezione contatti last">
-					<a href="/contatti/contatti.php">
-						<img src="http://placehold.it/300x230"/>
-					</a>
-					
-					<h3><a href="/contatti/contatti.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at bibendum sem, at molestie lacus</a></h3>	
-				</div>
-				
-			</div>
+				</section>
+			</main>
 
 			<!--<div id="mainContent">
 				<h2>Chi sono: un giardiniere esperto e qualificato che opera nelle provincie di Udine e Trieste</h2>
@@ -166,9 +173,9 @@ $pagina = "home";
 				
 			</div>-->
 			
-			<div id="footer">
+			<footer id="footer">
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
-			</div>				
+			</footer>				
 			
 		</div>	
 		

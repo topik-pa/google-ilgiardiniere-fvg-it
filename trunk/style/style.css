@@ -52,25 +52,43 @@ table {
 body {
 	font-family: Verdana,Geneva,sans-serif;
 	font-size: 14px;
+	color: #550000;
+	
+	background: linear-gradient(#fff, #e7f5ce);
 }
 
 a {
-	color: #cc9966;
+	color:#769631;
 	text-decoration:none;
 }
 a:hover {
-	color:#cccc99;
+	color: #aa3939;
+}
+
+.clear {
+	clear:both;
+}
+
+main {
+	background-color: #FFF;
 }
 
 .top-row-wrapper {
 	background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 }
 #top-row {
 	margin: 0 auto;
     width: 990px;
 	background-color: #333333;
-	color: #FFFFFF;
+	color: #dfdfdf;
 	padding: 7px 0;
+}
+#top-row a {
+	
 }
 #top-row .top-row-section {
 	display: inline-block;
@@ -90,12 +108,15 @@ a:hover {
 
 #header {
     height: 122px;
-	margin: 20px auto;
+	margin: 40px auto 20px;
     width: 990px;
 }
 
 #pageHeader {
-	float: left;
+	
+	/*height: 22px;
+	margin: 50px 0;*/
+	float:left;
 }
 
 #menu-top {
@@ -104,12 +125,19 @@ a:hover {
 }
 
 #menu-top li{
-	display:inline;
+	/*display:inline;*/
+	
+	float: left;
+	
 }
 
 #menu-top li a{
-	padding:0 8px;
+	padding-left: 20px;
 	font-weight: bold;
+	
+	
+    text-transform: uppercase;
+   
 }
 
 #menu-top li a:hover{
@@ -136,9 +164,9 @@ a:hover {
 
 
 
-#hp_title {
+.main-title {
 	background-color: #333333;
-	color: #FFFFFF;
+	color: #dfdfdf;
 	height: 30px;
 	line-height:30px;
 	text-align:center;
@@ -150,10 +178,14 @@ a:hover {
 
 
 
-
+.wrapper-servizi {
+	background-color: #f5f5f5;
+    padding: 20px 0;
+	border-bottom: 1px solid #333333;
+}
 #servizi {
 	height: 230px;
-    margin: 15px auto 50px;
+    margin: 15px auto;
     width: 990px;
 }
 #servizi .servizio  {
@@ -164,16 +196,18 @@ a:hover {
 
 .servizio  .immagini {
 	float: left;
-    margin-right: 10px;
+    margin-right: 5px;
+    width: 100px;
 }
 
 .servizio  .descrizione {
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .servizio  h2 {
-	margin-right: 10px;
+	margin-right: 20px;
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 
 .servizio  a {
@@ -194,8 +228,9 @@ a:hover {
 
 
 #sezioni  {
-	text-align:center;
-	margin: 20px auto;
+	margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
     width: 990px;
 }
 
@@ -221,13 +256,14 @@ a:hover {
 
 #footer {
 	clear: both;
-    padding-top: 50px;
+	color: #dfdfdf
 }
 
 #footer .menu-bottom {
 	border-top: 1px solid #333;
     line-height: 30px;
     text-align: center;
+	background-color: #f5f5f5;
 }
 
 #footer .menu-bottom a{
@@ -236,7 +272,6 @@ a:hover {
 
 #committente {
 	background-color: #333;
-    color: #fff;
     line-height: 25px;
     padding: 10px 0;
     text-align: center;
