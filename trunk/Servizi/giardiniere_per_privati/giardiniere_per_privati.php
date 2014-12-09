@@ -1,20 +1,18 @@
 <?php
-//Imposto due variabili di uso generale
 $titolo_pagina = "Giardiniere per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde";
 $pagina = "giardiniere_privati";
+$cod_pagina = "gp";
 ?>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
-	<!-- Inserimento del tag head -->
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/headT.php'); ?>
 	
-	<body class="home">	
+	<body class="<?php echo $cod_pagina; ?>">
 			
-		<div id="container">
-		
+		<div id="container">	
 			
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/top_row.php'); ?>
 					
@@ -25,12 +23,10 @@ $pagina = "giardiniere_privati";
 			
 			<main>
 				<section class="main-title">
-					<h1>Giardiniere Giulio Modotti: giardinaggio a Udine, Trieste ed in tutto il Friuli-Venezia Giulia</h1>
-				</section>
+					<h1>Giardiniere per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde</h1>
+				</section>		
 				
-				
-				<div id="mainContent">						
-					<h3><span>Il nostro giardino: manutenzione del verde</span></h3>
+				<section id="mainContent" class="content">						
 					<p>Il nostro verde di casa deve essere visto come un luogo dove stare in armonia e in relax, un posto in cui ritrovare la stessa sensazione di comfort e tranquillit&agrave; che proviamo quando siamo all'interno delle nostre pareti domestiche. <br />Il nostro giardino non deve essere uno spazio in pi&ugrave; che origina solo lavoro e grattacapi... Giusto? <br /><br />
 					</p>
 
@@ -78,11 +74,11 @@ $pagina = "giardiniere_privati";
 						<li>Smaltimento legname</li>
 						<li><strong>Preventivi e consulenza gratuiti!!!</strong></li>
 					</ul>
-					
-					<img src="img/1ico.jpg"/>
-				</div>
+					<div class="img-container">
+						<img src="http://placehold.it/550x300" class="content-image" id="img-1-<?php echo $cod_pagina; ?>"/>
+					</div>
+				</section>
 			</main>
-
 			
 			<footer id="footer">
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
@@ -90,9 +86,6 @@ $pagina = "giardiniere_privati";
 			
 		</div>	
 		
-		<!-- Inserimento codice StatCounter -->
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/statCounter.php'); ?>
-		<!-- Fine codice StatCounter -->
 	</body>
 </html>
-<!--fine home page -->
