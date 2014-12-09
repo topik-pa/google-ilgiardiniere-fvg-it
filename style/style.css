@@ -7,9 +7,9 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, /*strong,*/ sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, /*ol, ul, li,*/
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/*ol, ul {
 	list-style: none;
-}
+}*/
 blockquote, q {
 	quotes: none;
 }
@@ -54,7 +54,7 @@ body {
 	font-size: 14px;
 	color: #550000;
 	
-	background: linear-gradient(#fff, #e7f5ce);
+	/*background: linear-gradient(#fff, #769631);*/
 }
 
 a {
@@ -65,12 +65,40 @@ a:hover {
 	color: #aa3939;
 }
 
+h2 {
+	border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    color: #333;
+    font-weight: bold;
+    margin: 9px 0;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
 .clear {
 	clear:both;
 }
 
+.img-container {
+	text-align: center;
+}
+
 main {
 	background-color: #FFF;
+}
+
+.content-image {
+	padding:10px 10px 0 0;
+}
+
+#mainContent {
+	margin: 30px auto;
+    width: 990px;
 }
 
 .top-row-wrapper {
@@ -112,10 +140,10 @@ main {
     width: 990px;
 }
 
+.pageHeader.wrapper {
+
+}
 #pageHeader {
-	
-	/*height: 22px;
-	margin: 50px 0;*/
 	float:left;
 }
 
@@ -125,8 +153,7 @@ main {
 }
 
 #menu-top li{
-	/*display:inline;*/
-	
+	list-style: none;
 	float: left;
 	
 }
@@ -201,17 +228,14 @@ main {
 }
 
 .servizio  .descrizione {
-	margin-right: 20px;
+	font-size: 0.8em;
+	margin-right: 8px;
 }
 
-.servizio  h2 {
-	margin-right: 20px;
+.servizio  h3 {
 	margin-bottom: 10px;
 	font-weight: bold;
-}
-
-.servizio  a {
-	margin-right: 10px;
+	font-size: 0.9em;
 }
 
 .servizio  a.button {
@@ -248,6 +272,28 @@ main {
 
 
 
+#chi-sono, #dove-opero, #macchinari {
+	margin: 0 auto;
+    padding: 10px 0 50px;
+    width: 990px;
+}
+
+.content {
+	line-height: 20px;
+}
+.content img {
+	padding: 13px;
+}
+
+#chi-sono img {
+	float:left;
+}
+
+#dove-opero img {
+	float:right;
+}
+
+
 
 
 
@@ -280,3 +326,28 @@ main {
 #committente .recapiti .tel {
 	margin-right: 30px;
 }
+
+
+
+
+/*Stili specifici per pagina*/
+#img-1-gep {
+	float:left;
+}
+#img-2-gep {
+	float:right;
+}
+
+.gallery .content-image  {
+	margin-bottom: 10px;
+	padding: 8px 4px 0 0;
+}
+
+.gt .subsection {
+	padding-bottom: 40px;
+}
+.gt .content img {
+	float:left;
+	padding-top: 0;
+}
+

@@ -6,7 +6,6 @@
 	<meta name="robots" content="index,follow" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
-	<!-- Inserimento metatag specifici per pagina -->
 	<?php
 		switch($pagina) {
 			
@@ -16,24 +15,6 @@
 					echo '<meta name="description" content="Giardiniere per abbattimento tecnico alberi con fresatura radici a Udine a Trieste ed in tutto il Friuli-Venezia Giulia. Giulio Modotti opera anche a Codroipo, Tavagnacco" />';
 					echo "\n";
 					echo '<meta name="subject" content="Il giardiniere Giulio Modotti opera nella provincia di Udine e Trieste ed in tutto il Friuli per lavori di giardinaggio. Manutenzione alberature stradali, raccolta legname, piattaforma aerea, trasporto con gru, lottizzazioni boschive" />';
-					echo "\n";
-			break;
-			
-			case 'tipologie_lavori':
-					echo '<meta name="keywords" content="giardiniere, trieste, giardinaggio, provincia di, udine, gorizia" />';
-					echo "\n";
-					echo '<meta name="description" content="Giardiniere a Trieste e giardinaggio in tutta la provincia di Trieste e Gorizia" />';
-					echo "\n";
-					echo '<meta name="subject" content="Il giardiniere Giulio opera a Trieste e nella sua provincia. Lavori di giardinaggio anche a Gorizia e in tutto il Friuli." />';
-					echo "\n";
-			break;
-
-			case 'chi_siamo':
-					echo '<meta name="keywords" content="Giulio, Modotti, Giardiniere, giardinaggio, manutenzione giardini, Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo, Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Manzano" />';
-					echo "\n";
-					echo '<meta name="description" content="Manutenzione e cura terreni giardini a Udine e Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo, Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Manzano" />';
-					echo "\n";
-					echo '<meta name="subject" content="Il giardiniere Giulio Modotti opera a Udine, Codroipo, Tavagnacco, Latisana, Cervignano, Cividale, Campoformido, Pasian di Prato, Pozzuolo, Fagagna, San Daniele del Friuli, San Giorgio di Nogaro, Aquileia, Palmanova, Manzano" />';
 					echo "\n";
 			break;
 
@@ -71,9 +52,36 @@
 					echo "\n";
 					echo '<meta name="subject" content="Giulio Modotti: giardiniere per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde" />';
 					echo "\n";
-			break;					
+			break;
+
+			case 'giardiniere_enti_pubblici':
+					echo '<meta name="keywords" content="Giardiniere, udine, trieste, enti pubblici, comuni, amministrazioni pubbliche" />';
+					echo "\n";
+					echo '<meta name="description" content="Giardiniere a Udine e Trieste per gli enti pubblici, comuni, amministrazioni pubbliche" />';
+					echo "\n";
+					echo '<meta name="subject" content="Giardiniere per gli enti pubblici, comuni, amministrazioni pubbliche" />';
+					echo "\n";
+			break;
 			
-			default:
+			case 'giardiniere_trieste':
+					echo '<meta name="keywords" content="giardiniere, Trieste, giardinaggio, provincia triestina, Gorizia, Udine" />';
+					echo "\n";
+					echo '<meta name="description" content="Giardiniere a Trieste. Giardinaggio nella provincia triestina, di Gorizia e di Udine" />';
+					echo "\n";
+					echo '<meta name="subject" content="Giardiniere a Trieste. Giardinaggio nella provincia triestina, di Gorizia e di Udine" />';
+					echo "\n";
+			break;
+
+			case 'contatti':
+					echo '<meta name="keywords" content="Giardinaggio, manutenzione giardino, Udine, Friuli-Venezia Giulia, contatti, email, telefono" />';
+					echo "\n";
+					echo '<meta name="description" content="Giardinaggio e manutenzione giardino a Udine (Friuli-Venezia Giulia) - Contattami" />';
+					echo "\n";
+					echo '<meta name="subject" content="Giardinaggio e manutenzione giardino a Udine (Friuli-Venezia Giulia) - Contattami" />';
+					echo "\n";
+			break;			
+			
+			default: //gallery - 
 					echo '<meta name="keywords" content="giardiniere, udine, friuli, perito agrario, potature, siepi, alberi, manutenzione, giardino, siepi, alberi, fiori, consulenza, fitosanitaria" />';
 					echo "\n";
 					echo '<meta name="description" content="Giardiniere a Udine in Friuli. Giulio Modotti (perito agrario) esegue lavori di potatura, eliminazione processionaria e manutenzione di alberi, fiori, siepi, e di tutto il giardino. Chiama per avere un preventivo gratuito." />';
