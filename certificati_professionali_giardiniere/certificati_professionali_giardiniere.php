@@ -31,8 +31,8 @@ $cod_pagina = "gep";
 					<!--<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=1"><img id="foto1" alt="Giardiniere a Udine e in Friuli: attestato primo soccorso" src="img/1ico.jpg" /></a>
 					<a href="gallery.php?pagina=giardiniere_per_gli_enti_pubblici&amp;img=2"><img id="foto2" alt="Giardiniere a Udine e in Friuli: attestato prevenzione e sicurezza negli ambienti lavorativi" src="img/2ico.jpg" /></a>-->
 					
-					<img src="http://placehold.it/470x340" class="content-image" id="img-1-<?php echo $cod_pagina; ?>"/>
-					<img src="http://placehold.it/340x470" class="content-image" id="img-2-<?php echo $cod_pagina; ?>"/>
+					<img src="/img/primo_soccorso.jpg" class="content-image" id="img-1-<?php echo $cod_pagina; ?>"/>
+					<img src="/img/prevenzione_sicurezza.jpg" class="content-image" id="img-2-<?php echo $cod_pagina; ?>"/>
 					<div class="clear"/>
 				</section>
 			</main>

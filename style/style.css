@@ -52,33 +52,73 @@ table {
 body {
 	font-family: Verdana,Geneva,sans-serif;
 	font-size: 14px;
-	color: #550000;
-	
-	/*background: linear-gradient(#fff, #769631);*/
+	background-color: #FEFEFE; /**/
 }
 
 a {
-	color:#769631;
+	color:#769631; /**/
 	text-decoration:none;
 }
 a:hover {
-	color: #aa3939;
+	color: #aa3939; /**/
 }
 
 h2 {
 	border-bottom: 1px solid #333;
     border-top: 1px solid #333;
-    color: #333;
+    color: #aa3939; /**/
     font-weight: bold;
-    margin: 9px 0;
-    padding: 5px;
+	font-size: 1.1em;
+    margin: 20px 0;
+    padding: 15px;
     text-align: center;
     text-transform: uppercase;
+	line-height: 20px;
 }
 
 h3 {
     text-transform: uppercase;
+	line-height: 15px;
 }
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    /*padding: 8px 6px;*/
+    border: 1px solid #aa3939;
+    border-radius: 0px;
+    background: #e7ffb2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e7ffb2), to(#759431));
+    background: -moz-linear-gradient(top, #e7ffb2, #759431);
+    background: linear-gradient(to bottom, #e7ffb2, #759431);
+    font: 0.9em verdana;
+    color: #aa3939;
+    text-decoration: none;
+    text-transform: uppercase;
+	width: 130px;
+}
+.button:hover {
+    border: 1px solid #ff5b5b;
+    background: #ffffd6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffd6), to(#8cb23b));
+    background: -moz-linear-gradient(top, #ffffd6, #8cb23b);
+    background: linear-gradient(to bottom, #ffffd6, #8cb23b);
+    color: #aa3939;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.button:active {
+    background: #8b996b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8b996b), to(#759431));
+    background: -moz-linear-gradient(top, #8b996b, #759431);
+    background: linear-gradient(to bottom, #8b996b, #759431);
+    text-transform: uppercase
+}
+.button:focus {
+    text-transform: uppercase
+}
+
 
 .clear {
 	clear:both;
@@ -89,7 +129,7 @@ h3 {
 }
 
 main {
-	background-color: #FFF;
+	background-color: #FEFEFE; /**/
 }
 
 .content-image {
@@ -102,7 +142,7 @@ main {
 }
 
 .top-row-wrapper {
-	background-color: #333333;
+	background-color: #333333; /**/
     position: fixed;
     top: 0;
     width: 100%;
@@ -111,8 +151,8 @@ main {
 #top-row {
 	margin: 0 auto;
     width: 990px;
-	background-color: #333333;
-	color: #dfdfdf;
+	background-color: #333333; /**/
+	color: #dfdfdf; /**/
 	padding: 7px 0;
 }
 #top-row a {
@@ -125,7 +165,6 @@ main {
 }
 #top-row .top-row-section  img{
 	vertical-align: sub;
-	margin-right: 10px;
 }
 
 
@@ -136,7 +175,7 @@ main {
 
 #header {
     height: 122px;
-	margin: 40px auto 20px;
+	margin: 50px auto 15px;
     width: 990px;
 }
 
@@ -149,7 +188,7 @@ main {
 
 #menu-top {
 	float: right;
-	line-height: 122px;
+	line-height: 100px;
 }
 
 #menu-top li{
@@ -160,15 +199,8 @@ main {
 
 #menu-top li a{
 	padding-left: 20px;
-	font-weight: bold;
-	
-	
-    text-transform: uppercase;
-   
-}
-
-#menu-top li a:hover{
-	text-decoration:underline;
+	font-weight: bold;	
+	font-size: 1.2em;
 }
 
 
@@ -181,8 +213,11 @@ main {
 
 #main-slider {
 	clear: both;
-	margin: 20px auto;
+	margin: 15px auto;
     width: 990px;
+}
+ul.bxslider {
+	margin:0;
 }
 
 
@@ -192,8 +227,8 @@ main {
 
 
 .main-title {
-	background-color: #333333;
-	color: #dfdfdf;
+	background-color: #333333; /**/
+	color: #dfdfdf; /**/
 	height: 30px;
 	line-height:30px;
 	text-align:center;
@@ -206,12 +241,12 @@ main {
 
 
 .wrapper-servizi {
-	background-color: #f5f5f5;
+	background-color: #f5f5f5; /**/
     padding: 20px 0;
-	border-bottom: 1px solid #333333;
+	border-bottom: 1px solid #333333; 
 }
 #servizi {
-	height: 230px;
+	height: 250px;
     margin: 15px auto;
     width: 990px;
 }
@@ -227,8 +262,12 @@ main {
     width: 100px;
 }
 
+.servizio  img { 
+	display:block;
+}
+
 .servizio  .descrizione {
-	font-size: 0.8em;
+	font-size: 0.85em;
 	margin-right: 8px;
 }
 
@@ -241,8 +280,8 @@ main {
 .servizio  a.button {
 	position:absolute;
 	bottom:0;
-	text-align: center;
-	font-weight: bold;
+	/*text-align: center;*/
+	/*font-weight: bold;*/
 }
 
 
@@ -302,14 +341,14 @@ main {
 
 #footer {
 	clear: both;
-	color: #dfdfdf
+	color: #dfdfdf /**/
 }
 
 #footer .menu-bottom {
 	border-top: 1px solid #333;
     line-height: 30px;
     text-align: center;
-	background-color: #f5f5f5;
+	background-color: #f5f5f5; /**/
 }
 
 #footer .menu-bottom a{
@@ -317,7 +356,7 @@ main {
 }
 
 #committente {
-	background-color: #333;
+	background-color: #333333; /**/
     line-height: 25px;
     padding: 10px 0;
     text-align: center;
@@ -351,3 +390,20 @@ main {
 	padding-top: 0;
 }
 
+.home  .menu_home  a {
+	color: #aa3939;
+}
+.gep  .menu_giardiniere_enti_pubblici  a {
+	color: #aa3939;
+}
+.gallery  .menu_gallery  a {
+	color: #aa3939;
+}
+.contatti  .menu_contatti  a {
+	color: #aa3939;
+}
+
+.pt .content-image {
+	float:left;
+	padding:8px;
+}
