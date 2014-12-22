@@ -1,7 +1,14 @@
-<div id="main-slider"> 
-	<ul class="bxslider">
-	  <li><img src="http://placehold.it/990x200/FF0000" title="Funky roots" /></li>
-	  <li><img src="http://placehold.it/990x200/00FF00" title="The long and winding road" /></li>
-	  <li><img src="http://placehold.it/990x200/0000FF" title="Happy trees" /></li>
-	</ul>
+<div class="wrapper main-slider-wrapper">
+	<div id="main-slider"> 
+		<ul class="bxslider">
+			<li><img src="/img/giardiniere_udine_trieste_6.png" title="Il giardiniere opera a Udine, trieste ed in tutto il Friuli-Venezia Giulia" /></li>
+		  
+		  <li><img src="/img/giardiniere_udine_trieste_2.png" title="Il giardiniere opera a Udine, trieste ed in tutto il Friuli-Venezia Giulia" /></li>
+		  
+		  <li><img src="/img/giardiniere_udine_trieste_3.png" title="Il giardiniere opera a Udine, trieste ed in tutto il Friuli-Venezia Giulia" /></li>
+		  <li><img src="/img/giardiniere_udine_trieste_4.png" title="Il giardiniere opera a Udine, trieste ed in tutto il Friuli-Venezia Giulia" /></li>
+		  <li><img src="/img/giardiniere_udine_trieste_5.png" title="Il giardiniere opera a Udine, trieste ed in tutto il Friuli-Venezia Giulia" /></li>
+		  <li><img src="/img/giardiniere_udine_trieste_1.png" title="Il giardiniere opera a Udine, trieste ed in tutto il Friuli-Venezia Giulia" /></li>
+		</ul>
+	</div>
 </div>
