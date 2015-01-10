@@ -4,26 +4,26 @@ $pagina = "movimento_terra";
 $cod_pagina = "mts";
 ?>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
+<?php include('../includes/doctype.php'); ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/headT.php'); ?>
+	<?php include('../includes/headT.php'); ?>
 	
 	<body class="<?php echo $cod_pagina; ?>">
 			
 		<div id="container">
 		
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/top_row.php'); ?>
+			<?php include('../includes/top_row.php'); ?>
 					
 			<header id="header"> 
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/pageHeader.php'); ?>
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.php'); ?>			
+				<?php include('../includes/pageHeader.php'); ?>
+				<?php include('../includes/menu.php'); ?>			
 			</header>		
 			
 			<main>
 				<section class="main-title">
-					<h1>Giardiniere per movimento terra e semina terreni con fresatura radici e livellatura</h1>
+					<h1>Giardiniere Udine e in tutto il Friuli per movimento terra e semina terreni con fresatura radici e livellatura</h1>
 				</section>
 								
 				<section id="mainContent" class="content">						
@@ -37,14 +37,19 @@ $cod_pagina = "mts";
 						<img src="/img/movimento_terra_semine.jpg" class="content-image" id="img-1-<?php echo $cod_pagina; ?>"/>
 					</div>
 				</section>
+				
+				<section id="keywords">
+					Keywords: movimento, terra, semine, fresatura, livellatura, terreni, Udine, Trieste, Friuli
+				</section>
+				
 			</main>
 	
 			<footer id="footer">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
+				<?php include('../includes/footer.php'); ?>
 			</footer>				
 			
 		</div>	
 		
-		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/statCounter.php'); ?>
+		<?php include('../includes/statCounter.php'); ?>
 	</body>
 </html>

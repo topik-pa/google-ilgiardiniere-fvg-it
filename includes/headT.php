@@ -28,7 +28,7 @@
 			break;
 
 			case 'potature_tecniche':
-					echo '<meta name="keywords" content="abbattimenti, potature, alberi, piante, fresatura, radici" />';
+					echo '<meta name="keywords" content="abbattimenti, potature, alberi, piante, fresatura, radici, alberature stradali" />';
 					echo "\n";
 					echo '<meta name="description" content="Abbattimenti e potature tecniche di alberi e piante con fresatura radici" />';
 					echo "\n";
@@ -94,22 +94,19 @@
 
 	<meta http-equiv="Content-Script-Type" content="text/javascript" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
+	
 	<link rel="shortcut icon" href="/img/favicon.png"  />
 
-	<script src="/javascript/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src="/javascript/html5shiv.min.js" type="text/javascript"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"  type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="/style/style.css" />
 	
 	<!-- bxSlider Javascript file -->
-	<script src="/javascript/jquery.bxslider.min.js"></script>
+	<script src="/javascript/jquery.bxslider.min.js"  type="text/javascript"></script>
 	<!-- bxSlider CSS file -->
 	<link href="/style/jquery.bxslider.css" rel="stylesheet" />
 	
 	<script src="/javascript/site.js"></script>
-	
-	<!-- Regole aggiuntive per browser Microsoft -->
-	<!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="/style/stile-ie.css" />
-	<![endif]-->
 	
 </head>
