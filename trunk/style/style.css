@@ -119,6 +119,11 @@ h3 {
     text-transform: uppercase
 }
 
+#update-section {
+	text-align: center;
+	padding: 100px 0;
+}
+
 
 .clear {
 	clear:both;
@@ -156,7 +161,8 @@ main {
 	padding: 7px 0;
 }
 #top-row a {
-	
+	color: #bddd78;
+	font-weight: bold;
 }
 #top-row .top-row-section {
 	display: inline-block;
@@ -232,7 +238,7 @@ ul.bxslider {
 	height: 30px;
 	line-height:30px;
 	text-align:center;
-	padding: 20px 0;
+	padding: 25px 0;
 	font-size: 1.3em;
 }
 
@@ -280,8 +286,17 @@ ul.bxslider {
 .servizio  a.button {
 	position:absolute;
 	bottom:0;
-	/*text-align: center;*/
-	/*font-weight: bold;*/
+}
+
+#keywords {
+	font-size:0.7em;
+	font-style: italic;
+	margin: 15px auto;
+    width: 990px;
+	border-bottom: 1px dotted;
+    border-top: 1px dotted;
+	padding: 8px 10px;
+	color: #666;
 }
 
 
@@ -313,7 +328,7 @@ ul.bxslider {
 
 #chi-sono, #dove-opero, #macchinari {
 	margin: 0 auto;
-    padding: 10px 0 50px;
+    padding: 10px 0 20px;
     width: 990px;
 }
 
@@ -367,6 +382,12 @@ ul.bxslider {
 }
 
 
+#logo3-container {
+	text-align:center;
+	padding-top: 40px;
+}
+
+
 
 
 /*Stili specifici per pagina*/
@@ -402,8 +423,23 @@ ul.bxslider {
 .contatti  .menu_contatti  a {
 	color: #aa3939;
 }
+.contatti #mainContent {
+	margin: 60px auto;
+}
+.contatti .tel{
+	color: red;
+    font-size: 1.5em;
+}
 
 .pt .content-image {
-	float:left;
 	padding:8px;
+	
+}
+.pt  .img-container  {
+	height:709px;
+	overflow:hidden;
+}
+.pt  .img-container div {
+	float:left;
+	width:450px;
 }

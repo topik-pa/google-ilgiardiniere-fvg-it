@@ -4,21 +4,21 @@ $pagina = "manutenzione_terreni";
 $cod_pagina = "mt";
 ?>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
+<?php include('../includes/doctype.php'); ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/headT.php'); ?>
+	<?php include('../includes/headT.php'); ?>
 	
 	<body class="<?php echo $cod_pagina; ?>">
 			
 		<div id="container">
 			
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/top_row.php'); ?>
+			<?php include('../includes/top_row.php'); ?>
 					
 			<header id="header"> 
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/pageHeader.php'); ?>
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.php'); ?>			
+				<?php include('../includes/pageHeader.php'); ?>
+				<?php include('../includes/menu.php'); ?>			
 			</header>		
 			
 			<main>
@@ -36,18 +36,25 @@ $cod_pagina = "mt";
 						Tutti noi dovremmo aver cura del nostro territorio, &egrave; s&iacute; nostro, ma <strong>il paesaggio e la salute sono di tutti!</strong>
 					</p>
 					<div class="img-container">
-						<img src="/img/manutenzione_cura_terreni.jpg" class="content-image" id="img-1-<?php echo $cod_pagina; ?>"/>
+						<img src="/img/manutenzione_cura_terreni.jpg" class="content-image" id="img-1-<?php echo $cod_pagina; ?>" width="465"/>
+						<img src="/img/manutenzione_cura_terreni_3.jpg" class="content-image" id="img-3-<?php echo $cod_pagina; ?>" width="465"/>
 						<img src="/img/manutenzione_cura_terreni_2.jpg" class="content-image" id="img-2-<?php echo $cod_pagina; ?>"/>
+						
 					</div>
+					<div class="clear"/>
+				</section>
+				
+				<section id="keywords">
+					Keywords: manutenzione, terreni, cura, eliminazione, arbusti, sterpaglie, stoppie, frasche, cespugli, siepi, residui di coltivazione, detriti
 				</section>
 			</main>
 			
 			<footer id="footer">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
+				<?php include('../includes/footer.php'); ?>
 			</footer>				
 			
 		</div>	
 		
-		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/statCounter.php'); ?>
+		<?php include('../includes/statCounter.php'); ?>
 	</body>
 </html>

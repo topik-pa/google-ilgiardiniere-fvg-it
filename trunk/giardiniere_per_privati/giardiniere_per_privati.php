@@ -1,29 +1,29 @@
 <?php
-$titolo_pagina = "Giardiniere per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde";
+$titolo_pagina = "Giardiniere a Udine per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde";
 $pagina = "giardiniere_privati";
 $cod_pagina = "gp";
 ?>
 
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/doctype.php'); ?>
+<?php include('../includes/doctype.php'); ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/headT.php'); ?>
+	<?php include('../includes/headT.php'); ?>
 	
 	<body class="<?php echo $cod_pagina; ?>">
 			
 		<div id="container">	
 			
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/top_row.php'); ?>
+			<?php include('../includes/top_row.php'); ?>
 					
 			<header id="header"> 
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/pageHeader.php'); ?>
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/menu.php'); ?>			
+				<?php include('../includes/pageHeader.php'); ?>
+				<?php include('../includes/menu.php'); ?>			
 			</header>		
 			
 			<main>
 				<section class="main-title">
-					<h1>Giardiniere per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde</h1>
+					<h1>Giardiniere a Udine per la manutenzione del alberi, piante, giardino, prato e tutto il vostro verde</h1>
 				</section>		
 				
 				<section id="mainContent" class="content">						
@@ -78,14 +78,18 @@ $cod_pagina = "gp";
 						<img src="/img/giardiniere_privati.jpg" class="content-image" id="img-1-<?php echo $cod_pagina; ?>"/>
 					</div>
 				</section>
+				
+				<section id="keywords">
+					Keywords: giardiniere, udine, friuli, manutenzione, verde, alberi, piante, giardino, prato, siepi, potature, abbattimento, alberi, consulenza, giardinaggio
+				</section>
 			</main>
 			
 			<footer id="footer">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.php'); ?>
+				<?php include('../includes/footer.php'); ?>
 			</footer>				
 			
 		</div>	
 		
-		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/statCounter.php'); ?>
+		<?php include('../includes/statCounter.php'); ?>
 	</body>
 </html>
